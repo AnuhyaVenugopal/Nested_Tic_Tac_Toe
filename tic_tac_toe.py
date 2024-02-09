@@ -197,6 +197,8 @@ class NestedTicTacToe:
         # Reset player and game_over
         self.player = 'X'
         self.game_over = False
+        #Ask for opponent again
+        self.opponent_is_bot = self.ask_for_opponent()
 
 if __name__ == "__main__":
     NestedTicTacToe()
